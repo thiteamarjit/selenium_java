@@ -19,7 +19,7 @@ public class Calender {
 				"F:\\\\Users\\\\amarjit\\\\eclipse-workplace\\\\Introduction\\\\resources\\\\drivers\\\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		WebDriverWait wait=new WebDriverWait(driver, 10);
+		//WebDriverWait wait=new WebDriverWait(driver, 10);
 		driver.get("https://www.path2usa.com/travel-companion/");
 		driver.findElement(By.id("form-field-travel_comp_date")).click();
 		Thread.sleep(2000);
