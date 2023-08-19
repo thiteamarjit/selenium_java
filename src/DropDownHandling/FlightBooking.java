@@ -1,4 +1,4 @@
-package HaldingDropDown;
+package DropDownHandling;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
